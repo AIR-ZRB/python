@@ -30,10 +30,11 @@ i = 0
 
 # continue退出循环
 while i < 5:
-    print(i)
+    
     if i == 2:
         print("END")
         i += 1 
         continue
+    print(i)
     i += 1
 
